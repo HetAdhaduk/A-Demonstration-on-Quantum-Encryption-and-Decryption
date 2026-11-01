@@ -8,6 +8,7 @@
 
 > **A full-stack physics demonstration and cryptographic testbed combining a real-time 3-node Python/Qiskit network simulator (`Receiver.py`, `hacker.py`, `sender.py`), a 3-party GHZ Quantum Secret Sharing engine (`prob 3.py`), and an interactive 2D/3D web monograph (`index.html`).**
 
+<<<<<<< HEAD
 **Live Interactive Web Presentation:** `https://physice-da.netlify.app`
 
 
@@ -15,6 +16,25 @@
 
 As fault-tolerant quantum processors harness coherent superposition, non-local entanglement, and the Quantum Fourier Transform (QFT), classical asymmetric protocols face mathematical obsolescence under *Store Now, Decrypt Later (SNDL)* attacks. This repository unites **three complementary components**:
 
+=======
+**Live Interactive Web Presentation:** `https://your-site-name.netlify.app` *(Replace with your Netlify Drop URL)*
+
+## GitHub "About" Sidebar Descriptions (Short Options)
+
+Choose one of these concise descriptions (under GitHub's 350-character limit) for your repository's **About** sidebar:
+
+* **Option 1 (Comprehensive — 338 chars):** Full-stack Quantum Encryption & Decryption demonstration featuring a 3-node Python/Qiskit TCP network testbed (RSA vs. Shor's QFT Attack vs. Post-Quantum Lattice LWE), a 3-party GHZ & BB84 Quantum Secret Sharing simulator (`Operation Thunderbolt`), and an interactive 2D/3D HTML5 Canvas physics presentation.
+* **Option 2 (Action-Oriented — 246 chars):** Interactive physics monograph and Python/Qiskit working models demonstrating Classical RSA, Shor's Algorithm (IBM Quantum QFT), Post-Quantum Lattice Cryptography (LWE), BB84 QKD, and 3-Party GHZ Quantum Secret Sharing.
+* **Option 3 (Short & Punchy — 172 chars):** Python/Qiskit cryptographic network simulations and interactive 3D web visualizations for Quantum Encryption, Shor's QFT Attack, BB84 QKD, and Lattice LWE Security.
+
+**Recommended GitHub Topics:**
+`quantum-cryptography` `qiskit` `python` `shors-algorithm` `bb84-protocol` `post-quantum-cryptography` `lattice-cryptography` `quantum-secret-sharing` `ghz-state` `bloch-sphere`
+
+## Abstract & Architecture Overview
+
+As fault-tolerant quantum processors harness coherent superposition, non-local entanglement, and the Quantum Fourier Transform (QFT), classical asymmetric protocols face mathematical obsolescence under *Store Now, Decrypt Later (SNDL)* attacks. This repository unites **three complementary components**:
+
+>>>>>>> 90e0f7b7b0df4410b05cc68533bdf95d7612af52
 1. **Multi-Node Python TCP Cryptanalysis Testbed (`Receiver.py`, `hacker.py`, `sender.py`):** A live socket-based network simulation where a Sender transmits encrypted payloads to a Receiver while a Hacker node passively taps the line and executes classical brute-force, IBM Quantum QFT period-finding (Shor's Algorithm), and post-quantum lattice attacks (Gaussian Elimination & Babai's Nearest Plane).
 2. **Operation Thunderbolt — 3-Party Quantum Secret Sharing (`prob 3.py`):** A Qiskit `AerSimulator` workflow using 120 tripartite GHZ states, dual-channel BB84 Quantum Key Distribution (160 raw qubits/channel), and 3-way XOR One-Time Pad splitting ($K = K_\alpha \oplus K_\beta \oplus K_\gamma$) to protect the 64-bit directive `"THUNDERB"`, detect a compromised commander (Charlie), and generate 10 publication-grade Matplotlib diagnostic plots.
 3. **Interactive Web Monograph & 3D Physics Laboratories (`index.html`):** A zero-build single-page web application with KaTeX mathematical typesetting and nine interactive HTML5 Canvas simulations across seven chapters.
